@@ -1,0 +1,79 @@
+{
+  "users": [
+    "569f80e77712b273209bff72",
+    "56e991a159fc1db109026577"
+  ],
+  "status": 1,
+  "serverOptions": {
+    "allowOrigin": [
+      "http://www.toroback.com",
+      "http://toroback.com",
+      "http://192.168.1.45:4200",
+      "http://192.168.1.40:4500"
+    ],
+    "a2sVersion": "0",
+    "port": 4566,
+    "secret_key": "Dn5u114u5FucUO2PLf4oFl0Ao",
+    "host": "http://192.168.1.41"
+  },
+  "gitOptions": {
+    "git": "git@github.com:filianer/testRepoToro.git",
+    "ssh": {
+      "password": "carlos",
+      "sshPrivateKey": {
+        "name": "git/testRepoToro",
+        "cert": "git/1465469114756_testRepoToro",
+        "id": "sshPrivateKey"
+      },
+      "sshPublicKey": {
+        "name": "git/testRepoToro.pub",
+        "cert": "git/1465469109556_testRepoToro.pub",
+        "id": "sshPublicKey"
+      }
+    }
+  },
+  "dbOptions": {
+    "name": "573c881022db4e8177f72b5e_appTest5",
+    "host": "mongodb://localhost/573c881022db4e8177f72b5e_appTest5"
+  },
+  "socialOptions": {
+    "fb": {}
+  },
+  "pushOptions": {
+    "ios": [
+      {
+        "active": false,
+        "production": false,
+        "id": 1464082411191,
+        "cert": "ios/1464090745141_ubikable.p12",
+        "passphrase": "ub1k4bl3",
+        "name": "ios/ubikable.p12"
+      },
+      {
+        "active": true,
+        "production": true,
+        "id": 1464088019877,
+        "passphrase": "a2system",
+        "cert": "ios/1464092423743_c.p12",
+        "name": "ios/c.p12"
+      }
+    ],
+    "gcm": {
+      "url": "https://android.googleapis.com/gcm/send",
+      "apikey": "AIzaSyDCxb-flWV4s452y-Sw8YINnXGHYcG_pnQ"
+    }
+  },
+  "mqttOptions": {
+    "options": {}
+  },
+  "redisOptions": {},
+  "path": "/Users/sergio.garcia/Desktop/Desarrollo/apps/569f80e77712b273209bff72/573c881022db4e8177f72b5e",
+  "sessionOptions": {
+    "name": "573c881022db4e8177f72b5e_appTest5"
+  },
+  "__v": 1,
+  "app_key": "s6z31pMEGHXbYjo",
+  "creator": "569f80e77712b273209bff72",
+  "name": "appTest5",
+  "_id": "573c881022db4e8177f72b5e"
+}
